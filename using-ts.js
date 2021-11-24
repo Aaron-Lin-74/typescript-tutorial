@@ -7,4 +7,5 @@ function addTwoNum(num1, num2) {
 }
 button2.addEventListener('click', function () {
     console.log(addTwoNum(+num1.value, +num2.value));
+    console.log('Hi');
 });
